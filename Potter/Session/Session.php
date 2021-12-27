@@ -6,5 +6,5 @@ use Potter\Session\Database\SessionDatabaseTrait;
 
 final class Session extends AbstractSession
 {
-    use SessionDatabaseTrait;
+    use SessionDatabaseTrait, SessionTrait;
 }
