@@ -9,4 +9,6 @@ abstract class AbstractSession implements SessionInterface
     abstract public function getDatabase(): DatabaseInterface;
 
     abstract public function setDatabase(DatabaseInterface $database): void;
+
+    abstract public function start(): void;
 }
