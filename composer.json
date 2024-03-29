@@ -5,7 +5,8 @@
     "require": {
         "php": "^8.3",
         "potter/session-interface": "dev-main",
-        "potter/session-trait": "dev-main"
+        "potter/session-trait": "dev-main",
+        "potter/session-aware": "dev-main"
     },
     "license": "MIT",
     "autoload": {
