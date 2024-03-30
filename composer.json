@@ -8,6 +8,10 @@
         "potter/session-traits": "dev-main",
         "potter/session-aware": "dev-main"
     },
+    "suggest": {
+        "potter/components": "dev-main",
+        "potter/framework": "dev-main"
+    },
     "license": "MIT",
     "autoload": {
         "psr-4": {
